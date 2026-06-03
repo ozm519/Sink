@@ -2,40 +2,6 @@
 
 **A Simple / Speedy / Secure Link Shortener with Analytics, 100% run on Cloudflare.**
 
-<a href="https://trendshift.io/repositories/10421" target="_blank">
-  <img
-    src="https://trendshift.io/api/badge/repositories/10421"
-    alt="miantiao-me/Sink | Trendshift"
-    width="250"
-    height="55"
-  />
-</a>
-<a href="https://news.ycombinator.com/item?id=40843683" target="_blank">
-  <img
-    src="https://hackernews-badge.vercel.app/api?id=40843683"
-    alt="Featured on Hacker News"
-    width="250"
-    height="55"
-  />
-</a>
-<a href="https://hellogithub.com/repository/57771fd91d1542c7a470959b677a9944" target="_blank">
-  <img
-    src="https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=57771fd91d1542c7a470959b677a9944&claim_uid=qi74Zp23wYKeAVB&theme=neutral"
-    alt="Featured｜HelloGitHub"
-    width="250"
-    height="55"
-  />
-</a>
-<a href="https://www.uneed.best/tool/sink" target="_blank">
-  <img
-    src="https://www.uneed.best/POTW1.png"
-    alt="Uneed Badge"
-    width="250"
-    height="55"
-  />
-</a>
-
-[<img src="https://devin.ai/assets/deepwiki-badge.png" alt="DeepWiki" height="20"/>](https://deepwiki.com/miantiao-me/Sink)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F69652?style=flat&logo=cloudflare&logoColor=white)
 ![Nuxt](https://img.shields.io/badge/Nuxt-00DC82?style=flat&logo=nuxtdotjs&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
@@ -59,21 +25,6 @@
 - **🔲 QR Code:** Generate QR codes for your short links.
 - **📦 Import/Export:** Bulk link migration via JSON and access analytics via CSV.
 - **🌍 Multi-language:** Full i18n support for dashboard and redirect pages.
-
-## 🪧 Demo
-
-Experience the demo at [Sink.Cool](https://sink.cool/dashboard). Log in using the Site Token below:
-
-```txt
-Site Token: SinkCool
-```
-
-<details>
-  <summary><b>Screenshots</b></summary>
-  <img alt="Analytics" src="./docs/images/sink.cool_dashboard.png"/>
-  <img alt="Links" src="./docs/images/sink.cool_dashboard_links.png"/>
-  <img alt="Link Analytics" src="./docs/images/sink.cool_dashboard_link_slug.png"/>
-</details>
 
 ## 🧱 Technologies Used
 
@@ -100,8 +51,6 @@ We welcome your contributions and PRs.
 
 ## 🏗️ Deployment
 
-> Video tutorial: [Watch here](https://www.youtube.com/watch?v=MkU23U2VE9E)
-
 We currently support deployment to [Cloudflare Workers](./docs/deployment/workers.md) (recommended) and [Cloudflare Pages](./docs/deployment/pages.md).
 
 ## ⚒️ Configuration
@@ -111,40 +60,6 @@ We currently support deployment to [Cloudflare Workers](./docs/deployment/worker
 ## 🔌 API
 
 [API Docs](./docs/api.md)
-
-## 🤖 AI Skills
-
-Install Sink AI Skills for enhanced coding assistance:
-
-```bash
-npx skills add miantiao-me/sink
-```
-
-## 🧰 MCP
-
-We currently do not support native MCP Server, but we have OpenAPI documentation, and you can use the following method to support MCP.
-
-> Replace the domain name in `OPENAPI_SPEC_URL` with your own domain name.
->
-> The `API_KEY` is the same as the `NUXT_SITE_TOKEN` in the environment variables.
-
-```json
-{
-  "mcpServers": {
-    "sink": {
-      "command": "uvx",
-      "args": [
-        "mcp-openapi-proxy"
-      ],
-      "env": {
-        "OPENAPI_SPEC_URL": "https://sink.cool/_docs/openapi.json",
-        "API_KEY": "SinkCool",
-        "TOOL_WHITELIST": "/api/link"
-      }
-    }
-  }
-}
-```
 
 ## 🙋🏻 FAQs
 
@@ -156,8 +71,3 @@ We currently do not support native MCP Server, but we have OpenAPI documentation
 2. [**NuxtHub**](https://hub.nuxt.com/)
 3. [**Astroship**](https://astroship.web3templates.com/)
 4. [**Tailark**](https://tailark.com/)
-
-## ☕ Sponsor
-
-1. [Follow Me on X(Twitter)](https://404.li/x).
-2. [Become a sponsor to on GitHub](https://github.com/sponsors/miantiao-me).

@@ -36,7 +36,7 @@
   },
   "layouts": {
     "footer": {
-      "copyright": "产品来自 HTML.ZONE",
+      "copyright": "Sink",
       "social": {
         "email": "邮箱",
         "telegram": "Telegram",
@@ -63,15 +63,11 @@
     "settings": "设置",
     "import": "导入",
     "export": "导出",
-    "coffee": "请我喝杯咖啡",
     "github": "GitHub",
     "stars": "Stars",
     "update": "新版本 {version} 可用（当前: {current}）"
   },
   "home": {
-    "hero": {
-      "github_repo": "GitHub 仓库"
-    },
     "features": {
       "title": "功能特点",
       "subtitle": "简单而实用的功能",
@@ -124,11 +120,6 @@
         "description": "仪表盘和跳转页面完整的国际化支持"
       }
     },
-    "cta": {
-      "title": "立即部署",
-      "description": "只需几个简单的点击，您就可以免费开始部署",
-      "button": "开始部署"
-    },
     "logos": {
       "title": "使用优秀的技术构建"
     },
@@ -140,10 +131,6 @@
       "subtitle": "受到全球开发者的信赖",
       "stars": "GitHub Stars",
       "forks": "Forks"
-    },
-    "testimonials": {
-      "title": "用户好评",
-      "subtitle": "看看开发者们怎么说"
     }
   },
   "dashboard": {

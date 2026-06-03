@@ -36,7 +36,7 @@
   },
   "layouts": {
     "footer": {
-      "copyright": "Products of HTML.ZONE",
+      "copyright": "Sink",
       "social": {
         "email": "Email",
         "telegram": "Telegram",
@@ -63,15 +63,11 @@
     "settings": "Settings",
     "import": "Import",
     "export": "Export",
-    "coffee": "Buy me a coffee",
     "github": "GitHub",
     "stars": "Stars",
     "update": "New version {version} available (current: {current})"
   },
   "home": {
-    "hero": {
-      "github_repo": "GitHub Repo"
-    },
     "features": {
       "title": "Features",
       "subtitle": "Simple and sufficient functionality",
@@ -124,11 +120,6 @@
         "description": "Full i18n support for dashboard and redirect pages"
       }
     },
-    "cta": {
-      "title": "Deployment immediately",
-      "description": "With just a few simple clicks, you can start deploying without any expenses",
-      "button": "Start Deploy"
-    },
     "logos": {
       "title": "Built with awesome technologies"
     },
@@ -140,10 +131,6 @@
       "subtitle": "Trusted by developers around the world",
       "stars": "Stars on GitHub",
       "forks": "Forks"
-    },
-    "testimonials": {
-      "title": "Loved by Users",
-      "subtitle": "See what developers are saying about Sink"
     }
   },
   "dashboard": {

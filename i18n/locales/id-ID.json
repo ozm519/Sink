@@ -36,7 +36,7 @@
   },
   "layouts": {
     "footer": {
-      "copyright": "Sebuah produk dari HTML.ZONE",
+      "copyright": "Sink",
       "social": {
         "email": "Email",
         "telegram": "Telegram",
@@ -63,15 +63,11 @@
     "settings": "Pengaturan",
     "import": "Impor",
     "export": "Ekspor",
-    "coffee": "Traktir Kopi",
     "github": "GitHub",
     "stars": "Bintang",
     "update": "Versi baru {version} tersedia (saat ini: {current})"
   },
   "home": {
-    "hero": {
-      "github_repo": "Repositori GitHub"
-    },
     "features": {
       "title": "Fitur",
       "subtitle": "Fungsi sederhana dan cukup",
@@ -124,11 +120,6 @@
         "description": "Dukungan penuh i18n untuk dashboard dan halaman pengalihan"
       }
     },
-    "cta": {
-      "title": "Deploy Sekarang",
-      "description": "Hanya dengan beberapa klik, Anda bisa langsung deploy tanpa biaya",
-      "button": "Mulai Deploy"
-    },
     "logos": {
       "title": "Dibangun dengan teknologi terbaik"
     },
@@ -140,10 +131,6 @@
       "subtitle": "Dipercaya oleh developer di seluruh dunia",
       "stars": "Bintang di GitHub",
       "forks": "Fork"
-    },
-    "testimonials": {
-      "title": "Disukai Pengguna",
-      "subtitle": "Lihat apa kata developer tentang Sink"
     }
   },
   "dashboard": {

@@ -36,7 +36,7 @@
   },
   "layouts": {
     "footer": {
-      "copyright": "Produtos da HTML.ZONE",
+      "copyright": "Sink",
       "social": {
         "email": "Email",
         "telegram": "Telegram",
@@ -63,15 +63,11 @@
     "settings": "Definições",
     "import": "Importar",
     "export": "Exportar",
-    "coffee": "Paga-me um café",
     "github": "GitHub",
     "stars": "Estrelas",
     "update": "Nova versão {version} disponível (atual: {current})"
   },
   "home": {
-    "hero": {
-      "github_repo": "Repositório GitHub"
-    },
     "features": {
       "title": "Funcionalidades",
       "subtitle": "Funcionalidade simples e suficiente",
@@ -124,11 +120,6 @@
         "description": "Suporte i18n completo para painel e páginas de redirecionamento"
       }
     },
-    "cta": {
-      "title": "Implementação imediata",
-      "description": "Com apenas alguns cliques simples, podes começar a implementar sem custos",
-      "button": "Iniciar implementação"
-    },
     "logos": {
       "title": "Construído com tecnologias incríveis"
     },
@@ -140,10 +131,6 @@
       "subtitle": "Confiado por programadores no mundo inteiro",
       "stars": "Estrelas no GitHub",
       "forks": "Forks"
-    },
-    "testimonials": {
-      "title": "Adorado pelos clientes",
-      "subtitle": "Vê o que os programadores dizem sobre o Sink"
     }
   },
   "dashboard": {

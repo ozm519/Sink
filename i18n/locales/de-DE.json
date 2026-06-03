@@ -36,7 +36,7 @@
   },
   "layouts": {
     "footer": {
-      "copyright": "Produkte von HTML.ZONE",
+      "copyright": "Sink",
       "social": {
         "email": "E-Mail",
         "telegram": "Telegram",
@@ -63,15 +63,11 @@
     "settings": "Einstellungen",
     "import": "Importieren",
     "export": "Exportieren",
-    "coffee": "Kauf mir einen Kaffee",
     "github": "GitHub",
     "stars": "Stars",
     "update": "Neue Version {version} verfügbar (aktuell: {current})"
   },
   "home": {
-    "hero": {
-      "github_repo": "GitHub-Repository"
-    },
     "features": {
       "title": "Funktionen",
       "subtitle": "Einfache und effektive Funktionalität.",
@@ -124,11 +120,6 @@
         "description": "Vollständige i18n-Unterstützung für Dashboard und Weiterleitungsseiten"
       }
     },
-    "cta": {
-      "title": "Sofortiges Deployment",
-      "description": "Mit nur wenigen einfachen Klicks kannst du ohne Kosten mit der Bereitstellung beginnen",
-      "button": "Deployment starten"
-    },
     "logos": {
       "title": "Entwickelt mit großartigen Technologien"
     },
@@ -140,10 +131,6 @@
       "subtitle": "Von Entwicklern weltweit vertraut",
       "stars": "Stars auf GitHub",
       "forks": "Forks"
-    },
-    "testimonials": {
-      "title": "Von Nutzern geliebt",
-      "subtitle": "Erfahre, was Entwickler über Sink sagen"
     }
   },
   "dashboard": {

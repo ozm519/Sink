@@ -12,7 +12,7 @@ const testLinkPayload = generateMock(linkSchema)
 
 describe('/api/link/ai', () => {
   it('generates AI slug for valid URL', async () => {
-    const response = await fetchWithAuth(`/api/link/ai?url=${encodeURIComponent('https://sink.cool')}`)
+    const response = await fetchWithAuth(`/api/link/ai?url=${encodeURIComponent('https://example.com')}`)
 
     // AI binding may not be enabled (501) or request may timeout
     expect([200, 501]).toContain(response.status)
@@ -42,7 +42,7 @@ describe('/api/link/ai', () => {
 
 describe('/api/link/og-ai', () => {
   it('generates AI metadata for valid URL', async () => {
-    const response = await fetchWithAuth(`/api/link/og-ai?url=${encodeURIComponent('https://sink.cool')}`)
+    const response = await fetchWithAuth(`/api/link/og-ai?url=${encodeURIComponent('https://example.com')}`)
 
     expect([200, 501]).toContain(response.status)
 
